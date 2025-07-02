@@ -1,0 +1,7 @@
+version: '3'
+services:
+  rl-agent:
+    build: .
+    volumes:
+      - .:/app
+    tty: true
